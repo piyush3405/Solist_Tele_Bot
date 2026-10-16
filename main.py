@@ -112,7 +112,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
     elif data == 'contact_expert':
         await query.edit_message_text(
-            "📞 **Direct Expert Support**\n\nCall our Noida property desk at: **+91-9876543210** or email support@noidarealestate.com",
+            "📞 **Direct Expert Support**\n\nCall our Noida property desk at: **+91-12345678900** or email support@noidarealestate.com",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Menu", callback_data='menu_main')]]),
             parse_mode="Markdown"
         )
